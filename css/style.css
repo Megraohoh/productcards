@@ -1,17 +1,31 @@
 
 /*The title and product image are centered.*/
 
-/*Notice that the text for the description in the image is justified.*/
-
-/*The text for the product specification details and pricing details is bold.*/
-
 /*The availability element extends the full width of the card, with a dark 
 grey background and yellow text.*/
 
-
-/*The entire card has a solid 1px border that is lightblue.
-The card title has a dotted 1px border that is lightgray.*/
-card {
+.card {
 	width: 30%;
 	border: 1px solid lightblue;
+	display: flex;
+	flex-direction: column;
+}
+img {
+	max-width: 100%;
+}
+
+h2{
+	border: 1px dotted lightgray;
+}
+
+/*Notice that the text for the description in the image is justified.*/
+.description {
+	text-align: justify;
+}
+/*The text for the product specification details and pricing details is bold.*/
+.product-specs {
+	font-weight: bold;
+}
+.pricing {
+	font-weight: bold;
 }

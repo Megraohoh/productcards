@@ -1,27 +1,47 @@
+/***EXTRA STYLES***/
+body {
+	background-color: grey;
+}
 
 /*The title and product image are centered.*/
-
-/*The availability element extends the full width of the card, with a dark 
-grey background and yellow text.*/
-
+.card-align {
+	width: 100%;
+	display: flex;
+  	flex-direction: row;
+  	flex-wrap: wrap; 
+  	align-items: flex-start;
+}
 .card {
 	width: 30%;
 	border: 1px solid lightblue;
 	display: flex;
-	flex-direction: column;
+	flex-flow: column wrap;
+	box-shadow: 0 0 8px black;
 }
 img {
 	max-width: 100%;
+	display: block;
+    margin: 0 auto;
 }
 
 h2{
 	border: 1px dotted lightgray;
+	text-align: center;
 }
 
 /*Notice that the text for the description in the image is justified.*/
 .description {
 	text-align: justify;
 }
+
+/*The availability element extends the full width of the card, with a dark 
+grey background and yellow text.*/
+
+.availablity {
+	background-color: darkgrey;
+	color: yellow;
+}
+
 /*The text for the product specification details and pricing details is bold.*/
 .product-specs {
 	font-weight: bold;

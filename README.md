@@ -1,17 +1,15 @@
 # NSS Exercise: Product Cards
 
 ### Description:
-> Basic html and css in use.   
-
-
+> Creating product cards to display related information in a structured layout.   
 
 ### Final Result:
 > All requirements are met.  
 
-
-![Kermit Blog Screenshot]()
-![Kermit Blog Screenshot]()
-
+![Card Screenshot](https://raw.githubusercontent.com/Megraohoh/productcards/exercise/screenshots/Screen%20Shot%202017-04-02%20at%209.05.20%20PM.png)
+![Card Screenshot](https://raw.githubusercontent.com/Megraohoh/productcards/exercise/screenshots/Screen%20Shot%202017-04-02%20at%209.05.29%20PM.png)
+![Card Screenshot](https://raw.githubusercontent.com/Megraohoh/productcards/exercise/screenshots/Screen%20Shot%202017-04-02%20at%209.05.40%20PM.png)
+![Card Screenshot](https://raw.githubusercontent.com/Megraohoh/productcards/exercise/screenshots/Screen%20Shot%202017-04-02%20at%209.05.50%20PM.png)
 
 ### How to run :
 ```
